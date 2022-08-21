@@ -1,2 +1,5 @@
-# PortfolioWebsite
-This repository will contain the files to my personal website.
+# PersonalWebsite
+This is my personal website where I will eventually display my professional portfolio. Written in html/css.
+
+## Languages used
+HMTL/CSS, eventually javascript
