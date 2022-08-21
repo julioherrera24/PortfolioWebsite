@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Julio's Portfolio Website </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdFgVK/Kvc=" crossorigin="anonymous" />
+
+</head>
+<body>
+  <header> 
+    <div class="logo">
+      <img src="../Images/emoji.jpg" alt="">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"> </span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"> <a href="home" class="nav__link"> Home </a></li>
+        <li class="nav__item"> <a href="services" class="nav__link"> My Services </a></li>
+        <li class="nav__item"> <a href="about" class="nav__link"> About Me </a></li>
+        <li class="nav__item"> <a href="projects" class="nav__link"> My Projects </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Below is our Introduction Section-->
+  <section class="intro" id="home"> 
+    <h1 class="section__title section__title--intro">
+      Hello, I am <strong> Julio Herrera </strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro"> Software Developer</p>
+    <img src="../Images/selfie.jpeg" alt="A picture of Julio Herrera smiling">
+  </section>
+
+  <!-- My Sevices section-->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services"> What I do</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Design + Development</h3>
+          <p> C++ , JAVA, HTML/CSS, JAVASCRIPT </p>
+      </div>
+      <div class="service">
+        <h3> Hobbies</h3>
+          <p>Play basketball, video games and watch movies</p>
+      </div>
+      <div class="service">
+        <h3> Education</h3>
+          <p> UCLA & El Camino College </p>
+      </div>
+    </div>
+    <a href="projects" class="btn">My Projects</a>
+  </section>
+
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about"> Who I am</h2>
+    <p class="section__subtitle section__subtitle--about"></p>
+    <div class="about-me__body">
+      <p>This is where I will include information about me.
+      </p>
+    </div>
+    <!-- I will include another image here-->
+  </section>
+
+  <!-- This will be the My Projects Section-->
+  <section class="my-projects" id="projects">
+    <h2 class="section__title"> My Projects</h2>
+    <p class="section__subtitle"></p>
+    <div class="portfolio">
+      <!-- Portfolio Item 1-->
+      <a href="#" class="portfolio__item"> 
+        <img src="" alt="" class="portfolio__img">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <a href="email me at:julio.herrera310@gmail.com" class="footer__link">julio.herrera310@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">a </a></li>
+      <li class="social-list__item"><a class="social-list__link" href="https://github.com">b </a></li>
+      
+    </ul>
+  </footer>
+</body>
+</html>
